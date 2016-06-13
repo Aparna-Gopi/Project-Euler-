@@ -1,0 +1,12 @@
+total = 0 
+first = 1
+second = 2
+next =0 
+while (next < 4000000) :
+    next = second
+    if next%2==0 :
+        total+=next
+    next = first + second
+    first = second
+    second = next
+print total
