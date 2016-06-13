@@ -1,0 +1,7 @@
+no = int(raw_input())
+no = no - 1
+n1 = n0/3
+n2 = n0/5
+n3 = n0/15
+sum = 3*n1*(n1+1)/2 + 5*n2*(n2+1)/2 - 15*n3*(n3+1)/2
+print sum 
